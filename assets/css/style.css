@@ -1,0 +1,66 @@
+body {
+	background-image: url("../images/darkness.png");
+	 font-family: "Comic Sans MS", cursive, sans-serif;	
+}
+
+.logo {
+	background-color: #b2b1d1;
+	padding: 20px 40px;
+
+}
+
+.logo h1 {
+	font-weight: bold;
+}
+
+#container {
+	width: 100%
+	margin: 0 auto;
+}
+
+.instructions {
+	background-color: #edefea;
+	color: #12913f;
+	width: 75%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#num-to-guess {
+	background-color: #b2b1d1;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+.score {
+	background-color:#f4f397;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 60px;
+	border: solid black 2px #ddd
+
+}
+
+
+
+#your-current-score {
+	background: #c3d8d6;
+	display: inline-block;
+	width: 100%;
+	color:#1d0130;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+footer{
+text-align: center;	
+}

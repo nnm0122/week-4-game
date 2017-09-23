@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!--My Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+	<title>Crystals Collector</title>
+
+</head>
+<body>
+	<header> 
+		<div class="container"> 
+			<div class="row"> 
+				<div class="col-xs-12 col-sm-6"> 
+					<div class="logo">  
+						<h1>Crystal Collector!</h1>
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</header> 
+
+
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-xs-12 col-sm-8"> 
+
+				<div class="instructions"> 
+				<h3>You will be given a random mystery number at the start of the game. <br><br>
+
+						There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br><br>
+
+						You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number. <br><br>
+
+						The value of each crystal is hidden from you until you click on it. <br><br>
+
+						Each time when the game starts, the game will change the values of each crystal.<br><br>
+
+								<h3><strong>&#9752;&#9752;&#9752; Good Luck! &#9752;&#9752;&#9752;</strong></h3>
+
+				</div>
+					</div> 
+					
+
+					</div> 
+		
+		<div class="row"> 
+			<div id="num-to-guess" class="col-xs-8 col-sm-6">
+				<h2 class="target-number"><strong>Mystery Number:</strong></h2>
+			</div>
+			<div class="col-xs-4 col-sm-6">
+				<div class="score">
+					<h3 class="series-wins">wins: <span class="series-wins-value">0</span></h3>
+					<h3 class="series-losses">losses: <span class="series-losses-value">0</span></h3>
+				</div>
+				
+			</div>
+		</div> 
+
+<br>
+<br>
+
+		<div class="row"> <
+			<div class="col-md-3"> 
+				
+				<button class="crystal" id ="crystal-blue">
+					<img src=".\assets\images\diamond.jpg" alt="diamond">
+				</button>
+			</div> 
+			<div class="col-xs-3"> 
+				
+				<button class="crystal" id="crystal-green">
+					<img src=".\assets\images\emerald.jpg" alt="emerald">
+				</button>
+			</div>
+			<div class="col-xs-3"> 
+				
+				<button class="crystal" id="crystal-red">
+					<img src=".\assets\images\ruby.jpg" alt="ruby">
+				</button>
+			</div> 
+			<div class="col-xs-3">
+				
+				<button class="crystal" id="crystal-yellow">
+					<img src=".\assets\images\yellow crystal.jpg" alt="yellow crystal">
+				</button>
+			</div> 
+		</div>
+		<br>
+		<br>
+		<div class="row"> 
+			<div id="your-current-score" class="col-xs-12">
+				<h3 class="score-current"><strong>Your Current Score is:</strong><span class="score-current-value"></span></h3>
+			<div class="actions">
+					<button class="action action-restart">Restart Game</button><br>
+					
+				</div>	
+			</div>
+		</div> 
+		
+	</div> 
+
+<script src="assets/javascript/game.js"></script>
+
+<div>
+	<footer>
+ 	<div class="footer">
+ 		<p>Copyright &copy; 2017 Natasha Manning</p>
+ 	</div>
+ 	</footer>
+</div>
+</body>
+</html>
